@@ -21,7 +21,6 @@ header{
     border-radius: 25px;
     border:0;
     align-content: center;
-
 }
 
 .header h1{
@@ -31,48 +30,66 @@ header{
 }
 .chico{
     background-color: black;
-    list-style: none;
     display:flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: flex-start;
     margin-top: 10px;
     border-radius: 25px;;
 }
 
 .chico ul{
+    border-radius: 5px;
     display:flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-right: 10px;
+    margin-left: 10px;
+    list-style: none;
 }
 
 .chico nav{
     display:flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
 }
+
 .chico a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 200px;
 }
+
+.chico a:link{
+    color:silver;
+    text-decoration: none;
+}
+
 .chico a:hover{
-    background-color: white;
+    color: blue;
+    background-color: black;
+}
 
-
+.chico a:visited{
+    color:magenta;
 
 }
+
 .header-2{
     display:flex;
     justify-content: center;
+    background-color: silver;
+    border-radius: 20px;
+    margin-top: 10px;
 }
+
 .Cleo{
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
 }
+
 .Cleo p{
     color:silver;
     display:flex;
@@ -96,7 +113,7 @@ section{
     background-color: silver;
     flex-direction: row;
     justify-content: center;
-    border-radius:25px
+    border-radius:0px 25px 25px 0px;
     
 }
 
@@ -110,4 +127,27 @@ section{
 .coding-photo p{
     background-color: black;
     color:silver;
+    text-decoration: none;
+    padding:0;
+}
+.experience{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.experience p{
+    background-color: black;
+    color:silver;
+    padding:0;
+}
+.header-4{
+    background-color: silver;
+    border-radius: 0px 25px 25px 0px;
+}
+.footer h4{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: silver;
 }
