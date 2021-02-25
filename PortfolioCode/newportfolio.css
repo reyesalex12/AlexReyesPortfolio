@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: gray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+header{
+    background-color: silver;
+    color:black;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin:auto;
+    border-radius: 25px;
+    border:0;
+    align-content: center;
+
+}
+
+.header h1{
+    padding:1px;
+    display:flex;
+    width:200px;
+}
+.chico{
+    background-color: black;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+    border-radius: 25px;;
+}
+
+.chico ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.chico nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.chico a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.chico a:hover{
+    background-color: white;
+
+
+
+}
+.header-2{
+    display:flex;
+    justify-content: center;
+}
+.Cleo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.Cleo p{
+    color:silver;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.coding-photo{
+    display: flex;
+
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header-3{
+    background-color: silver;
+    flex-direction: row;
+    justify-content: center;
+    border-radius:25px
+    
+}
+
+.coding-photo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.coding-photo p{
+    background-color: black;
+    color:silver;
+}
